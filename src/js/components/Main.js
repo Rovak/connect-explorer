@@ -46,7 +46,6 @@ export default class Main extends Component {
                     { navLink('/cardano-getaddress', 'Cardano Get Address') }
                     { navLink('/cardano-getxpub', 'Cardano Get Public Key') }
                     { navLink('/cardano-signtx', 'Cardano Sign Transaction') }
-
                     { navLink('/lisk-getaddress', 'Lisk Get Address') }
                     { navLink('/lisk-getxpub', 'Lisk Get Public Key') }
                     { navLink('/lisk-signtx', 'Lisk Sign Transaction') }
@@ -55,8 +54,8 @@ export default class Main extends Component {
                     { navLink('/tezos-getaddress', 'Tezos Get Address') }
                     { navLink('/tezos-getxpub', 'Tezos Get Public Key') }
                     { navLink('/tezos-signtx', 'Tezos Sign Transaction') }
-
-                    
+                    { navLink('/tron-getaddress', 'Tron Get Address') }
+                    { navLink('/tron-signtx', 'Tron Sign Transaction') }
 
                     { navLink('/custom', 'Custom Message') }
                 </section>

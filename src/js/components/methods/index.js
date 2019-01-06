@@ -12,7 +12,7 @@ export { default as EthereumSignTx } from './EthereumSignTx';
 export { default as EthereumSignMessage } from './EthereumSignMessage';
 export { default as EthereumVerifyMessage } from './EthereumVerifyMessage';
 export { default as NEMSignTx } from './NEMSignTx';
-export { default as NEMGetAddress } from './NEMGetAddress'; 
+export { default as NEMGetAddress } from './NEMGetAddress';
 export { default as RippleSignTx } from './RippleSignTx';
 export { default as RippleGetAddress } from './RippleGetAddress';
 export { default as StellarSignTx } from './StellarSignTx';
@@ -32,6 +32,9 @@ export { default as LiskGetXpub } from './LiskGetXpub';
 export { default as LiskSignTx } from './LiskSignTx';
 export { default as LiskSignMessage } from './LiskSignMessage';
 export { default as LiskVerifyMessage } from './LiskVerifyMessage';
+
+export { default as TronGetAddress } from './TronGetAddress';
+export { default as TronSignTx } from './TronSignTx';
 
 export { default as TezosGetAddress } from './TezosGetAddress';
 export { default as TezosGetXpub } from './TezosGetXpub';

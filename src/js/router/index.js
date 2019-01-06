@@ -8,7 +8,7 @@ import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from '../store';
 
 import AppContainer from '../containers/AppContainer';
-import { 
+import {
     CipherKeyValue,
     GetAccountInfo,
     GetAddress,
@@ -41,6 +41,8 @@ import {
     TezosGetAddress,
     TezosGetXpub,
     TezosSignTx,
+    TronGetAddress,
+    TronSignTx,
     ResetDevice,
     WipeDevice,
 } from '../components/methods';
@@ -82,7 +84,8 @@ export default (
                     <Route exact path="/tezos-getaddress" component={ TezosGetAddress } />
                     <Route exact path="/tezos-getxpub" component={ TezosGetXpub } />
                     <Route exact path="/tezos-signtx" component={ TezosSignTx } />
-                    <Route exact path="/reset-device" component={ ResetDevice } />
+                    <Route exact path="/tron-getaddress" component={ TronGetAddress } />
+                    <Route exact path="/tron-signtx" component={ TronSignTx } /><Route exact path="/reset-device" component={ ResetDevice } />
                     <Route exact path="/wipe-device" component={ WipeDevice } />
                 </AppContainer>
             </Switch>

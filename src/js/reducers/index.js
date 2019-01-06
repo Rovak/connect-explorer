@@ -45,6 +45,9 @@ import tezosgetaddress from './methods/TezosGetAddressReducer';
 import tezosgetxpub from './methods/TezosGetXpubReducer';
 import tezossigntx from './methods/TezosSignTxReducer';
 
+import trongetaddress from './methods/TronGetAddressReducer';
+import tronsigntx from './methods/TronSignTxReducer';
+
 import custom from './methods/CustomMessageReducer';
 import login from './methods/RequestLoginReducer';
 import signtx from './methods/SignTxReducer';
@@ -58,7 +61,7 @@ export default combineReducers({
     DOM,
     connect,
     modal,
-    
+
     common,
     cipherkv,
     composetx,
@@ -95,7 +98,10 @@ export default combineReducers({
     tezosgetaddress,
     tezosgetxpub,
     tezossigntx,
-    
+
+    trongetaddress,
+    tronsigntx,
+
     custom,
     login,
     signtx,
